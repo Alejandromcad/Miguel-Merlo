@@ -4,7 +4,7 @@ var router  = express.Router();
 
 // HOME PAGE
 router.get("/", (req, res) =>{
-    res.send("home");
+    res.render("home");
 });
 
 // ABOUT ME
