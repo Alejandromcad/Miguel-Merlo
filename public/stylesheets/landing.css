@@ -1,4 +1,4 @@
-body{
+.section1{
     background: #C02425;  /* fallback for old browsers */
 background: -webkit-linear-gradient(left, #F0CB35, #C02425);
 background: -moz-linear-gradient(left, #F0CB35, #C02425);
@@ -7,17 +7,18 @@ background: linear-gradient(to right, #F0CB35, #C02425);  /* Chrome 10-25, Safar
 /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+
 #landing-header {
   z-index: 1;
   position: relative;
   text-align: center;
   padding-top: 20vh;
-  height: 400px; 
-
+  height: 500px; 
 }    
-.about-section{
+.work-section{
     text-align: center;
     height:300px;
+    /*padding:10px;*/
 }
 
 #about-header{
@@ -25,7 +26,8 @@ background: linear-gradient(to right, #F0CB35, #C02425);  /* Chrome 10-25, Safar
     position: relative;
     width: 300px;
 }
-
 ul{
-    list-style-type: none;
+    list-style: none;
+    display: inline;
 }
+
