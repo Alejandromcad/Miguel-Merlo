@@ -7,16 +7,6 @@ router.get("/", (req, res) =>{
     res.render("home");
 });
 
-// ABOUT ME
-router.get("/aboutme", (req, res) =>{
-    res.render("aboutme");
-});
-
-// PORTFOLIO
-router.get("/portfolio", (req, res) =>{
-    res.render("portfolio");
-});
-
 // CONTACT
 
 router.get("/contact", (req, res) =>{
