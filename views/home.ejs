@@ -5,7 +5,9 @@
         <title>Miguel Merlo Portfolio</title>
          <link rel="stylesheet" type="text/css" href="/stylesheets/landing.css">
          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Ubuntu:400,700" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
     </head>
     <body>
     <div class="container-fluid section1">
@@ -31,27 +33,28 @@
             <div class='col-md-12' id="landing-header">
                 <h1>Hi, my name is Miguel.</h1>
                 <h3>I'm a Junior Full-Stack Web Developer</h3>
-                <button class="btn btn-large btn-danger">Take a look at my work!</button>
+                <button class="btn btn-large btn-danger" id="seework-button">Take a look at my work!</button>
             </div>
         </div>
     </div>
     <!--1st Section-->
-    <div class="container-fluid">
+    <div class="container-fluid" id="first-project">
         <div class="about-header mx-auto pt-5">
             <h2>My Projects</h2>
             <hr>
         </div>
         <div class="row">
-            <div class="col-lg-8 offset-lg-2 col-sm-12 mt-5 mt-5">
+            <div class="col-lg-8 offset-lg-2 col-sm-12 mt-5 mt-5 port-section" id="port-section-1">
                 <div class="row">
                     <div class="col-md-6 col-md-push-6 mb-3">
-                        <img src="http://img.fenixzone.net/i/J5AwmQc.png" class="img-fluid rounded">
+                        <img src="http://img.fenixzone.net/i/J5AwmQc.png"  id="img1" class="img-fluid rounded">
+                
                     </div>
                     <div class="col-md-6 col-md-pull-6">
                         <div class="work-section bg-light rounded shadow p-3">
-                            <h2>Innovatech</h2>
-                            <p>Servicios Innovatech is a company specialized in the area of computer networks
-                            and technological solutions, they use products like Cisco and  Fortinet, etc.</p>
+                            <h2>ENI CBC</h2>
+                            <p>ENI CBC is an online learning platform on Cross-Border Cooperation under the European Neighbourhood Instrument!
+                            On this platform you will find video tutorials, written guidance and training material about projects preparation and implementation</p>
                             <p>I used:</p>
                             <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
                               <button type="button" class="btn  btn-outline-danger">Wordpress</button>
@@ -63,7 +66,7 @@
                     </div>
                 </div>
                 <div class="row justify-content-center m-5">
-                        <button class="btn btn btn-danger">See Page</button>
+                        <a href="http://enicbc-learn.com/" class="btn btn btn-danger">See Page</a>
                 </div>
             </div>
         </div>
@@ -71,7 +74,7 @@
     <!--2nd Section-->
     <div class="container-fluid bg-secondary">
          <div class="row">
-            <div class="col-lg-8 offset-lg-2 col-sm-12 mt-5 order-md-last">
+            <div class="col-lg-8 offset-lg-2 col-sm-12 mt-5 order-md-last port-section" id="port-section-2">
                 <div class="row">
                     <div class="col-md-6 col-md-push-6 mb-3">
                         <img src="http://img.fenixzone.net/i/o3Yaxr7.png" class="img-fluid rounded">
@@ -92,7 +95,7 @@
                     </div>
                 </div>
                 <div class="row justify-content-center m-5">
-                        <button class="btn btn btn-danger">See Page</button>
+                        <a href="http://www.serviciosinnovatech.com.ve/" class="btn btn btn-danger">See Page</a>
                 </div>
             </div>
         </div>
@@ -100,30 +103,28 @@
     <!--section3-->
     <div class='container'>
           <div class="row">
-            <div class="col-lg-8 offset-lg-2 col-sm-12 mt-5">
-                <div class="row">
+            <div class="col-lg-8 offset-lg-2 col-sm-12 mt-5 port-section" id="port-section-3">
+                <div class="row ">
                     <div class="col-md-6 col-md-push-6  col-sm-4 mb-3">
-                        <img src="http://img.fenixzone.net/i/FyDGqIz.png" class="img-fluid rounded">
-                    </div>
+                        <img src="http://img.fenixzone.net/i/FyDGqIz.png" class="img-fluid rounded">                    </div>
                     <div class="col-md-6 col-md-pull-6  col-sm-4">
                         <div class="work-section bg-light rounded shadow p-3">
-                            <h2>Innovatech</h2>
-                            <p>Servicios Innovatech is a company specialized in the area of computer networks
-                            and technological solutions, they use products like Cisco and  Fortinet, etc.</p>
+                            <h2>YelpCamp</h2>
+                            <p>YelpCamp is a web application i made in a course, i practiced RESTful Routes, CRUD,
+                            Passport.js,etc. </p>
                             <p>I used:</p>
                             <div class="justify-content-center">
                                 <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
-                                  <button type="button" class="btn  btn-outline-danger">Wordpress</button>
-                                  <button type="button" class="btn  btn-outline-danger">HTML</button>
-                                  <button type="button" class="btn  btn-outline-danger">CSS</button>
-                                  <button type="button" class="btn  btn-outline-danger">JavaScript</button>
+                                  <button type="button" class="btn  btn-outline-danger">Node.js</button>
+                                  <button type="button" class="btn  btn-outline-danger">MongoDB</button>
+                                  <button type="button" class="btn  btn-outline-danger">Heroku</button>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="row justify-content-center m-5">
-                    <button class="btn btn btn-danger">See Page</button>
+                    <a href="https://desolate-garden-41359.herokuapp.com/" class="btn btn btn-danger">See Page</a>
                 </div>
             </div>
         </div>
@@ -133,7 +134,7 @@
     <div class="container section2" id="about">
         <div class="about-header mx-auto my-5">
             <h2>About Me</h2>
-            <hr>
+            
         </div>
         <div class="row">
             <div class="col-lg-10 offset-lg-1 col-sm-12 about-section">
@@ -148,7 +149,7 @@
                 </div>
                 <div class="about-header mx-auto mt-5">
                     <h2>Skills</h2>
-                    <hr>
+                    
                 </div>
                 <div class="row mb-5 about-section text-center">
                     <div class="col-sm-12">

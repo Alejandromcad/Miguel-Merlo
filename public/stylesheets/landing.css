@@ -1,6 +1,7 @@
 html, body { 
     overflow-x: hidden; 
-
+    font-family: 'Lato', sans-serif !important;
+font-family: 'Ubuntu', sans-serif !important;
 }
 
 .section1{
@@ -16,6 +17,13 @@ html, body {
     position: relative;
 }
 
+hr{
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+    background: #999;
+}
+
+
 #landing-header {
   z-index: 1;
   position: relative;
@@ -26,11 +34,12 @@ html, body {
 }    
 .work-section{
     text-align: center;
-    height:300px;
+    height:100%;
 }
 .about-section{
     height: 100%;
     text-align: center;
+    line-height: 1.8;
 }
 
 .about-header{
@@ -43,10 +52,7 @@ html, body {
 #footer{
     color: white;
 }
-ul{
-    list-style: none;
-    display: inline;
-}
+
 .fa {
     padding: .50rem;
     font-size: 25px;
