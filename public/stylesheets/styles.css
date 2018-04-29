@@ -14,7 +14,9 @@ html,body{
     font-family: 'Lato', sans-serif !important;
     font-family: 'Ubuntu', sans-serif !important;
 }
-
+.navbar-dark .navbar-toggler{
+  border:none !important;
+}
 
 #header{
   color:white;
