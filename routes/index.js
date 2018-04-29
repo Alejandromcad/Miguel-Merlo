@@ -19,14 +19,14 @@ router.post("/contact", (req, res) => {
           port: 465,
           secure: true,
           auth: {
-            user: process.env.GMAIL_USER || "miguealemer@gmail.com",
-            pass: process.env.GMAIL_PASS || "130499mix"
+            user: process.env.GMAIL_USER,
+            pass: process.env.GMAIL_PASS 
         }
       });
 
         var mailOptions = {
           from: req.body.name + ' &lt;' + req.body.email + '&gt;',
-          to:   process.env.GMAIL_USER || "miguealemer@gmail.com",
+          to:   process.env.GMAIL_USER,
           subject: "New message from contact form at MiguelMerlo.com",
           text: `${req.body.name} (${req.body.email}) dice: ${req.body.message}`
         };
