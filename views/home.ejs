@@ -3,6 +3,7 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>Miguel Merlo Portfolio</title>
+        <% include ./partials/favicons.ejs %>
          <link rel="stylesheet" type="text/css" href="/stylesheets/landing.css">
          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
           <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -13,7 +14,7 @@
     </head>
     <body>
     <div class="container-fluid section1">
-        <nav class="navbar navbar-dark">
+        <nav class="navbar navbar-light">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" 
                 data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" 
                 aria-label="Toggle navigation">
@@ -32,10 +33,19 @@
                 </ul>
             </nav>
         <div class="row">
-            <div class='col-md-12' id="landing-header">
-                <h1>Hi, my name is Miguel.</h1>
-                <h3>I'm a Junior Full-Stack Web Developer</h3>
-                <button class="btn btn-large btn-danger" id="seework-button">Take a look at my work!</button>
+            <div class='col-lg-8 offset-lg-2 col-sm-12'>
+                 <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <img src="http://img.fenixzone.net/i/LYfrhPB.png" class="img-logo">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12" id="landing-header">
+                        <h1>Hi, my name is Miguel.</h1>
+                        <h3>I'm a Junior Full-Stack Web Developer</h3>
+                        <button class="btn btn-large btn-danger" id="seework-button">Take a look at my work!</button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -45,7 +55,6 @@
             <div class="col-lg-6 offset-lg-3 col-sm-12">
                 <div class="about-header mx-auto pt-5">
                     <h2>My Projects</h2>
-                    <hr>
                 </div>
             </div>
         </div>
@@ -147,7 +156,7 @@
                 <div class="row">
                     <div class="col-lg-8 offset-lg-2 col-sm-12 bg-light border rounded shadow p-4">
                         <p>I´m a web developer from Nueva Esparta, Venezuela with a passion for technology and games,
-                        i have 19 years old and started in the world of programming at 17. I'm a self taught developer, 
+                        i'm 19 years old and started in the world of programming at 17. I'm a self taught developer, 
                         coding is my job/hobby/life. Right now i'm looking for a
                         full-time position where i can practice all i've learnt and acquire more knowledge in this field.
                         </p>

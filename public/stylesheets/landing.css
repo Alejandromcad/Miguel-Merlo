@@ -1,23 +1,10 @@
 html, body { 
     overflow-x: hidden; 
     font-family: 'Lato', sans-serif !important;
-font-family: 'Ubuntu', sans-serif !important;
+  font-family: 'Ubuntu', sans-serif !important;
 }
-.navbar-dark .navbar-toggler{
+.navbar-light .navbar-toggler{
   border:none !important;
-}
-
-.section1{
-  background-image: 
-    linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url("https://images.unsplash.com/photo-1445620466293-d6316372ab59?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ca4f0bb0565191e29026044ebb49925a&auto=format&fit=crop&w=667&q=80");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    position: relative;
 }
 
 hr{
@@ -25,15 +12,15 @@ hr{
     border-bottom: 1px dashed #ccc;
     background: #999;
 }
-
-
+.img-logo{
+  max-width: 45%;
+  height: auto;
+}
 #landing-header {
   z-index: 1;
-  position: relative;
   text-align: center;
-  padding-top: 20vh;
-  height: 600px;
-  color:white;
+  height: 250px;
+  color:#212529;
 }    
 .work-section{
     text-align: center;
